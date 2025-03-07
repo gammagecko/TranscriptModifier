@@ -1,0 +1,2069 @@
+Microsoft has made an incredible number of things in their 50-year history enough that it's really easy to say that
+0:06
+nobody knows the whole list they've had their fingers in countless pies and the annals of Microsoft products you never
+0:12
+knew existed are extensive to put it mildly we could say the tip of the iceberg is Microsoft Bob for instance uh
+0:18
+further down you've got Windows blackcomb xenex multitasking Doss and somewhere well below the surface you've
+0:25
+got stuff like Windows multi-point Server a whole host of things that most people have never heard of and that's just counting operating systems there's
+0:32
+countless forgotten applications too and even Hardware products there's the TV photo viewer the original 2007 surface
+0:39
+The Sidewinder Gamepad with motion controls and countless other things that made it to Market but can easily be
+0:46
+missed or forgotten and then there's things that aren't deeper so much as they're on a completely different
+0:51
+Iceberg and that's where we find response Point Microsoft's first attempt at a Voiceover IP phone system okay
+0:59
+point of fact before we continue the iceberg in question is labeled Microsoft telepan products and it has plenty of
+1:05
+company on there there's office communication server which evolved into link server then into Skype for business
+1:11
+and eventually they dropped that code base and made a new thing called teams so that's at least four major products
+1:18
+in their telefony portfolio besides this one and each one of those I should mention was slower and clumsier than the
+1:23
+last uh with teams being the crowning achievement it's the worst and slowest telepan product I've ever used in my
+1:29
+life life but I'm sure they'll eventually Sunset that in favor of some new thing that's even slower because
+1:36
+while Microsoft has no idea how to do phones companies keep giving them money to try for no reason that I could tell
+1:43
+you but as far as I know all those products were entirely software based they weren't completely about telepan
+1:49
+and they were all targeted at Enterprises this on the other hand is a response Point PBX and this is very
+1:56
+obviously not an Enterprise product I doubt many corporations would buy a critically important device that looks
+2:02
+like an Xbox 360 this is to my knowledge their only attempt at a consumer grade
+2:07
+hardware-based PBX now maybe that doesn't mean anything to you and if so good news kind of the
+2:13
+point of this product is that it's for people who don't know what pbxs are and it's pretty remarkable in that regard I
+2:19
+don't think I've seen anything else quite like it but it is kind of hard to summarize what a PBX does concisely
+2:27
+because they do so much and I usually try to avoid getting into it for that reason now the last time I said that a
+2:33
+bunch of people insisted they wanted me to get into it and I will eventually but not in this video because it'd be 3
+2:40
+hours before we saw this thing actually running I'll summarize it a bit later but I'm here to talk about this thing so
+2:46
+let me show you what this thing does this is a phone this is another
+2:51
+phone and this is a network cable all right and here's what it all
+2:57
+does
+3:03
+it makes phone calls that's what pbxs do I mean there's hundreds of other potential capabilities but job one is
+3:09
+just to connect calls between phones either between extensions like this or to people from outside the
+3:18
+office this is a Voiceover IP or VoIP PBX which means that it doesn't use
+3:24
+traditional phone lines but I'm making this call from my actual cell phone it's going to an ordinary phone number it's
+3:29
+connected to an online Gateway service that lets the call come in over an Ethernet cable so I don't have to get an actual phone line delivered to my studio
+3:37
+it's very convenient and indeed Voiceover IP is
+PBX limitations
+3:42
+largely a product of convenience before VoIP entered the picture big businesses had to pay for huge bundles of phone
+3:49
+lines or expensive Digital Phone trunks but VoIP works over any ordinary internet connection and you only have to
+3:55
+pay for the Gateway service which is much cheaper than traditional telefony and even if you're a small business that
+4:00
+only needs a few lines it simplifies things to combine your phone service with your broadband connection now I'm
+4:07
+talking about businesses here because they're nearly the only market for phone systems in the US it's different in some
+4:13
+other places the German company AVM gmbh there's got to be a way to
+4:18
+pronounce that but I don't know what it is has sold about a billion home pbxs under their fritzbox brand and I assume
+4:26
+they sell them in places other than Germany but I don't really know what I can say is is that consumer pbxs are not
+4:31
+a thing in the US if an American Home has a phone it's a plain old telephone set plugged into a plain old Jack as
+4:38
+it's always been to the people watching who know the Deep American ISDN lore uh
+4:43
+ISDN dni oh and vage doesn't count that's just a simulation of a phone jack
+4:48
+the point is most pbxs are intended for businesses but even then there's different types of business with very
+4:53
+different needs the phone systems used at a Wall Street trading firm Are enormous expensive and incredi powerful
+5:00
+because they need to be for many years they were based on the same equipment used by actual phone companies and in
+5:05
+time they exceeded what even those systems could do but what Wall Street needs is very different from what a
+5:11
+supermarket needs or a factory or a new car dealership or a used car dealership or a pharmacy in a small town in Kansas
+5:18
+these are all wildly different applications but the industry has largely delivered just one product for
+5:24
+decades and it's basically just the thing they made for Wall Street uh I did turn up support for small and
+5:30
+mediumsized business phone systems for over 10 years and nearly all of their systems were virtually identical almost
+5:36
+none of them used more than three or four basic features that were built into almost every PBX ever made but despite
+5:43
+this the product we sold had hundreds of features which very few of them ever understood and they really just got in
+5:48
+the way it's never been easy to buy a PBX it was simple to configure in fact until recently many companies had to
+5:55
+retain full-time employees just to run the damn things back in the mid 80s for instance uh popular systems like the
+6:01
+AT&T Merlin could only be configured by sitting down at a telephone set and entering long strings of numbers blindly
+6:08
+into an audio prompt later systems from companies like Nell and Panasonic could be programmed through a tur menu on a
+6:14
+two-line LCD or sometimes through a Serial console and that was better but it was still nothing an end user could
+6:20
+handle and while the leading pbxs all got graphical PC based uis in the 9s
+6:25
+they remained incredibly dense and inaccessible because they were just too comp
+6:30
+even a low-end small office unit like a Nell bcm50 which is barely bigger than the phones it serves is still modeled
+6:37
+after the Monstrous multi- cabinet systems that run tens of thousands of lines in skyscrapers a very simple
+6:43
+question like how do I change this user's phone number becomes a lot harder to answer in a system that supports
+6:49
+features like least cost trunk routing that feature is utterly irrelevant to any office with less than a thousand
+6:56
+employees and most that do have that many but the architecture that makes it possible forces every administrator to
+7:02
+understand it even if they don't intend to use it so configuring these things has always been hard besides that the
+7:09
+end user experience also has rough edges which really never got polished off even now when I was working in the field I
+7:15
+never stopped getting calls from people who just couldn't seem to learn how to do basic things like transfer a call or
+7:21
+even dial people by extension and really I don't blame them if you're working at a job you know actually working doing
+7:28
+stuff to advance the needs of the business and one of the things you need to do is to call Bobs and douget your
+7:33
+boss in the back office Translating that on the fly into I need to dial 103 on my
+7:39
+phone is an abstraction that a lot of people just can't handle some folks are just bad at calling numbers especially
+7:45
+on top of whatever else they're busy with so what do you do you just look towards the back office and go hey Bob
+7:50
+come out here for a second that's not ideal so wouldn't it be better if you could just say to your
+7:56
+phone call Bobs and dougnut bobon douget and it would just do
+8:02
+it this is the Dual thesis of response point it's a phone system that's easy to
+8:07
+configure and easy to use something you could sell to the pharmacy in Kansas with three employees and the guy who
+8:13
+owns the place will run it himself that's an underserved market and providing for it is a brilliant idea but
+8:20
+it's kind of at odds with who was trying to do it response point was made by an
+Response Point origins
+8:25
+internal Microsoft Skunk Works called the speech Technology Group headed up by one Jong hang but there's almost more
+8:32
+info to be found about that guy than the product the guy seems to have a pretty big resume with regards to speech
+8:38
+recognition and I don't want to belittle any achievements there but almost everything I can find about him or the
+8:44
+speech Technology Group reeks of uh for instance one of the first results you'll get on Google is an
+8:51
+article for the i e called creating a startup inside an Enterprise which is 10,000 words of generic self-help crap
+8:58
+that boils down to if you want to get noticed and Pat out your resume find an executive and brown knows him until they
+9:03
+let you spend a bunch of money on a whim and that seems to have worked but as
+9:08
+with most business people and most Ventures by business people it feels like the product was just an excuse to
+9:15
+start a business and not the other way around indeed I found another article on this guy from Microsoft's own site which
+9:21
+is full of even more brainworm nonsense Act Fast Ponder less and learn he says
+9:28
+yeah man do you live laugh love too it's it's gobbledygook but if you read between the word salad it seems clear
+9:34
+what happened here the object of this group was legit they were put together to develop general purpose voice
+9:40
+recognition software but not any specific product so once they had something that worked they needed to
+9:45
+find a product to put it in and someone just came up with the idea of a phone system they just brainstormed and oh why
+9:51
+don't we do this it was a means to an end and that's concerning especially given who we're talking about here as I
+9:58
+said Microsoft keep keeps making phone systems and every one of them is bad I believe this is because only phone
+10:04
+people understand phones computer people you know programmers always want to impose computer esque workflows on them
+10:10
+and they confuse the hell out of users and admins alike sure enough Microsoft does this a lot my job used to force me
+10:18
+to use and administer Microsoft teams so I know both sides of it I don't know which part I hate more the app sucks but
+10:24
+the dashboard is incomprehensible very simple tasks take out hours to complete and it's because
+10:31
+the people who made it have no experience with phones they don't understand what admins need or how it
+10:36
+should all fit together and even once you find the settings you need the system only promises that they'll take effect within 7 days I you not I I
+10:45
+don't know if I'll find this picture on Google Images but I this is a message that I got from teams every time I changed something and they weren't
+10:51
+kidding my changes never took effect in less than 24 hours and sometimes it was longer and this is what I expect from
+10:58
+people who mostly work in cloud computing you know masses of anonymous nodes that you never look at directly
+11:03
+and the only thing that matters is eventual consistency if that's your wheelhouse then you won't understand
+11:08
+that when someone calls it and asks to have their name changed that needs to happen right away that user can't have
+11:15
+the wrong name showing up on other people's phones when they call them for a whole week but Microsoft has always been more about submit a ticket then
+11:22
+I'll get right on that so the question is were they able to think small enough to make this thing make sense
+11:29
+let's find out now first off we need to get into it but there's uh no real local interface to speak of on the front we
+First impressions
+11:36
+have this little LCD screen but it doesn't do much it just shows you the current IP address unfortunately however
+11:41
+you don't even need that all you need is a Windows PC we'll use this one to
+11:47
+access this system all you do is install the Microsoft response Point administrator it automatically searches
+11:53
+the network and finds any RP units you have so you just select the one you want put in your password and and just like
+11:59
+that you're in now every other pvx that I'm familiar with requires you to manually punch in an IP address or
+12:06
+connect to a Serial port on the physical device or other things that are just completely out of the question for the
+12:12
+guy running a small town Pharmacy so this system has already cleared a major hurdle by just letting the user get into
+12:18
+it it's a point to Microsoft and once you're in you get this very simple list
+12:23
+of objects and tasks and again this is already a massive improvement over the typical PBX experience
+12:29
+see the Nell BCM management software looks like this and the Avia IP office
+12:36
+software looks like this and the Samsung office serve software looks like this so
+12:42
+even as an expert on phones in general you will have no idea where to begin with any of these you simply have to be
+12:49
+an expert to know anything at all but in response point it's hard not to know
+12:55
+what you're doing I mean are you here to edit a user you just click on the user user if you're here to edit a phone you
+13:00
+just click edit phone everything isn't buried six menus deep and named weird
+13:06
+stuff like endpoints or subscribers conventional pbxs are so close to the Telco gear that they originally
+13:12
+descended from that they can't even commit to calling a user a user response point on the other hand knows exactly
+13:18
+where it's being used and who's using it and what things they're trying to do so they call a user a user a phone is a
+13:25
+phone a line is a line it's all very straightforward but what is a user and how is it
+PBX crash course
+13:32
+separate from a phone and how is that separate from a line I said I wouldn't get into it but none of this will make
+13:38
+any sense unless you have some grounding on what problem pbxs Are Meant to solve
+13:44
+so we need a crash course nowadays we pretty much all have cell phones right
+13:49
+but go back to the 80s or 90s and obviously most people couldn't afford them yet so you'll find that most folks
+13:55
+back then just have a single phone line at home now that's inconvenient if you're household has more than one
+14:00
+occupant if somebody's on the phone nobody else can use it right now most people just put up with that but if you
+14:05
+were Rich you'd often get two lines then two people could make calls at once duck but I think that was probably it I I
+14:12
+doubt that even the very rich bothered to get three or four lines even if there were more people living in the house you
+14:18
+could um but I've never heard of anybody doing it and I think it's just because statistically it's not likely that three
+14:25
+people are really going to need to be on the phone simultaneously and it works pretty much the same way at businesses
+14:30
+even today they make and receive a lot of calls but it's rare for every employee of a business to be on the
+14:36
+phone at once if you're an insurance company with 100 employees on average maybe 20 will be on the phone at any
+14:42
+given moment well you don't need a 100 phone lines then you can do with a pool of 20 maybe 25 for a safety margin and
+14:49
+that's good enough the trouble is how do you connect 100 phones to only 25 lines
+14:55
+the math doesn't make sense so enter the PBX a little box that sits between your office phones and the outside world you
+15:02
+can think of a PBX sort of like a Broadband router you know how your ISP gives you a single IP address but your
+15:08
+router lets you plug in 50 devices and they can all use that one IP at once it's the same thing you can plug as
+15:15
+little as one phone line into a PBX then put as many phones behind it as you want
+15:20
+when someone wants to make a call they just pick up their handset and the PBX connects it to that one shared line now
+15:26
+of course phones aren't packet based like internet connections so the line will be tied up until that one call is
+15:32
+over but the PBX will make sure everyone knows the line is busy so you don't get any rude interruptions so that's job one
+15:39
+job two of course is handling incoming calls going with the router analogy again maybe you know about Network
+15:45
+address translation or natat if you don't it's the magic that lets your PCS share one internet connection but
+15:52
+another thing that it offers as much as netsec people hate hearing this is basic security it blocks all unknown incoming
+15:59
+traffic such as botn Nets trying to hack your PC now this isn't on purpose of course it's just a side effect and it's
+16:05
+because there's no rule for what to do with an unknown incoming packet so it just gets thrown away this is convenient
+16:11
+on your home broadband router but when you're talking about a phone system you want random inbound connections to go
+16:17
+somewhere so that customers can call you so when a call comes in the pvx needs to be told which of your hundred phones
+16:23
+should receive it should it ring everybody in the office or a specific person if it's after hours should it go
+16:29
+to a voicemail box or get forwarded to someone's cell phone these and many other decisions have to be made by
+16:35
+management then implemented in the PBX now once a call is in progress you might
+16:40
+need to change how it's set up Say by transferring it to a cooworker this is where users come in or subscribers or
+16:47
+extensions or seats or a dozen other names depending on the system basically every phone behind a PBX is usually
+16:54
+bound to an identity of some kind there'll be a user profile that has at minimum an extension three or four
+17:00
+digits that can be dialed like a phone number so this guy here is 100 this guy here is 601 and this gives you an
+17:06
+address to send transfers to or to just call
+17:13
+directly this is one of the other important features of pbxs if you want to call a cooworker you don't need to
+17:18
+involve any outside phone lines you just dial their extension and the PBX connects your two sets internally in a
+17:24
+company with thousands of employees there might be hundreds of concurrent calls going on inside the office and
+17:30
+with a PBX you don't pay a penny for any of it because you own all the infrastructure now once again with the
+17:36
+router analogy though an extension is like a local IP address your PCS can talk to each other within your network
+17:42
+using their local IPS but those addresses aren't valid in the greater internet you only get one IP that other
+17:48
+people in the world can reach however in your router you can set up Port forwards to allow inbound traffic from the
+17:54
+outside world to reach those private IPS and the same thing is true with people pbxs if you order multiple numbers from
+18:01
+your phone service provider your PBX can map those to specific extensions so callers can reach specific people by
+18:08
+dialing specific numbers it's a feature called direct inward dialing okay that was a lot of talking and fortunately
+18:15
+that's it those are the absolute fundamentals the capabilities that every PBX in existence offers going back like
+18:23
+80 years okay these are the universal things and after that we get into
+18:29
+features every business needs different sets of features I mean some need none but many need lots there are thousands
+18:36
+of features they differ wildly between systems and even if two machines from different manufacturers have the same
+18:42
+feature they'll rarely call it by the same name this starts out with things like music on hold uh automatic call
+18:49
+forwarding voicemail then you escalate to directory Services interactive menus voice recognition facts to email bulk
+18:55
+dialing just to name a few things at the far end of the Spectrum you've got uh stuff like computer telephony
+19:01
+integration or CTI uh example if you work in a modern call center when your phone rings the customer account info
+19:07
+will just pop up on your screen automatically it's a thing called a screen pop the PBX has a feature that
+19:12
+sends the caller ID to your PC and that looks it up in a database uh also uh if you're at a grocery store and you hear
+19:18
+an automated voice overhead say call waiting for bakery department two oh2 that's a feature called parking page
+19:26
+that I think was made pretty much exclusively for supermarket markets and big Vox stores and the list goes on and
+19:31
+on and on and of course like I said most businesses don't need any of it and it
+19:37
+serves mostly just to confuse people response Point pairs away almost all of those confusing features it has very
+19:43
+little besides the fundamentals phones users and lines but those Concepts exist
+19:49
+on every PBX the basics are Universal but they're usually mind-numbing to set
+19:54
+up if you have an Avia or a mitel or God forbid an asterisk box there's just no chance in hell of a non-expert figuring
+20:01
+out where to begin so let's pretend that we're a new admin who just got this out of the box plugged it in and knows
+User setup & features
+20:07
+nothing about it I'm going to wipe this system and we're going to take it from the top now I think that even the total neoy would start by setting up their
+20:14
+connection to the outside world and we do that by clicking add voice service
+20:19
+now that's not quite as clear as one would hope uh you'd think it would just say add outside lines but since this is
+20:26
+a Voiceover IP system I think that's kind of iffy um lines implies a finite set of channels and that isn't
+20:33
+necessarily applicable I mean it is if you actually do use physical phone lines
+20:38
+and to be fair that is possible on this particular unit uh see these jacks on the back of the uh PBX I know I said
+20:45
+this was a Voiceover IP system and it is but it has a built-in adapter that
+20:50
+converts up to four analog phone lines into a viip format that may seem kind of silly to get such a modern device and
+20:57
+then hook it up to an ancient analog log service but in some places you just can't get reliable Broadband especially
+21:03
+in 2007 when this first came out so this was a must and that module does show up
+21:08
+as a set of individual lines in the UI here but most people would probably get this for VoIP I think and those Services
+21:16
+can deliver an indefinite number of calls at once basically as many as your internet connection can handle uh each
+21:22
+individual VoIP call only uses about 150 kilobits in both directions so if you have a 50 megabit service that's about
+21:29
+300 concurrent calls if I did my math right now many vo providers will charge you per session so you might have to
+21:35
+order just um 20 or 30 channels ahead of time but others just charge by the minute and allow as many concurrent
+21:41
+calls as you can send them so representing VoIP Service as a pool of lines doesn't really make sense also um
+21:49
+this thing probably scales quite a bit more than it seems at first Microsoft's brochures for response Point say that
+21:55
+it's intended for businesses with 50 employees or less but there doesn't seem to be any actual hard limits on anything
+22:02
+many pbxs do have limits based either on arbitrary license restraints or on
+22:07
+Hardware constraints but this doesn't seem to have any the help file mentions nothing about them and it does say that
+22:13
+you can connect as many phones as you like they just recommend sticking to no more than 200 because it might bog down
+22:19
+the CPU but it sounds like you could blow way past 50 users and probably have everyone in a call simultaneously
+22:26
+without much trouble so yeah they didn't really want to limit what this interface could display anyway if we were using
+22:33
+analog service setting it up would be a matter of just plugging the cables in but for VoIP we have to set up an account with our provider so we hit add
+22:41
+voice service and immediately get confused by this dialogue not all response Point units were the same a
+22:48
+topic we'll get into later this one does have the built-in analog ports so those show up automatically but many of these
+22:55
+things only had an Ethernet Jack nothing else so if you were forced to use analog
+23:00
+lines or a T1 or PRI uh which are special digital phone lines that are commonly used by businesses there'd be
+23:06
+nowhere to connect them on the unit itself Microsoft solution were adapters that would accept those Services convert
+23:13
+them into Voiceover IP and then plug into your network and the base unit could discover them uh fortunately we
+23:18
+don't have any of those uh we have VoIP and the second one does say that so we just pick that now apparently Microsoft
+23:25
+ran a database of service provider data back in the day you could pick like um uh I don't know 8x8 or ring central or
+23:33
+whoever and it would automatically put in all the proxy information and stuff like that I don't want to get too deep
+23:39
+into that but it was probably a really bad idea probably never worked very well and in any case the service is long gone
+23:44
+so we just have to go in here and pick other provider and response Point gently suggests that we go look at a list of
+23:52
+approved carriers before you proceed now you might think this is just a co-branding opportunity but the truth is
+23:57
+every PBS X vendor has a list of providers that they know work with their gear and often they have a list of
+24:03
+providers they know won't there are wildly different implementations of the common VoIP protocols and in some cases
+24:09
+a given service literally cannot work with a given PBX case in point I found a
+24:15
+KB article from someone called onsip that says you can use response point with them but they don't recommend it
+24:21
+because your users will have to dial four zeros before every number and I don't want to get into why this happens
+24:27
+it'll make both our brains hurt but suffice to say this kind of compatibility crap is commonplace in this industry and uh things don't get
+24:34
+much better on the next screen that sure is a lot of fields with a lot of labels
+24:40
+address of record URI off ID proxy address these don't mean anything guess
+24:47
+what they hardly mean anything to me either if you sign up with six different VI providers you'll get six different
+24:53
+sets of credentials some with more Fields than this some with fewer and they'll all have different names for
+24:58
+every field it's a notorious problem with Voiceover IP and it's Universal so um the only way out of this one is to
+25:04
+hope that our providers support staff can help us muddle through trust me they spend half their day doing just that so
+25:10
+supposing we figure all that out the next page wants to know about direct dial numbers this is the thing I mentioned earlier you can have specific
+25:17
+numbers connect straight through to people's direct extensions uh this is usually called direct inw dial I guess
+25:23
+Microsoft thought that one extra word was confusing but in any case we can't actually set this up without any users
+25:29
+so we'll just move on next it asks what caller ID setting we want fun fact uh
+25:34
+did you know that an enormous number of phone service providers will let you send any call or ID that you like with
+25:40
+no verification that you own that number just a fun little fact responsible providers however limit you to numbers
+25:46
+you own and in truth the majority just ignore what you send and overwrite it with whatever the first number you
+25:52
+ordered with them was so most of the time you can just leave this empty and that's what our provider will probably tell us when we call them in confusion
+25:59
+so we just hit next we give it a name and just like that we have access to the
+26:05
+outside world next of course we need some users so we'll hit add user now most pbxs will offer you hundreds of
+26:12
+settings at this stage uh this one gives you three name extension directory
+26:17
+listing the name is important because it appears on other people's phones when you call them but also because it shows
+26:23
+up in the company directory we'll talk a bit more about that later but suffice to say it's a feature that lets callers
+26:29
+hear an automated listing of all your employees and call anyone they like without needing to talk to a receptionist first it's a neat feature
+26:36
+some companies are going to want it some won't but even if you do want it you might not want to put everyone in it uh
+26:42
+for instance your CEO uh probably doesn't want random angry customers calling in and going hm I could probably
+26:47
+just say the guy's name here and then I get to yell at him directly so there's an option to hide specific users from
+26:54
+that directory but still let people reach them if they know their name and another to block those calls entirely
+27:00
+the last thing here is the extension number now some systems will let you set longer extensions uh but this one is
+27:06
+limited to exactly three digits now that's not a big deal obviously you aren't going to put a thousand users
+27:12
+behind this thing and shorter extensions well those would be convenient but most systems won't allow them for complicated
+27:18
+phone reasons so this is pretty much power for the course what's strange though is that once you've created a
+27:24
+user you can't change their extension now it's not that Comm that you need to do that it's just weird that you can't
+27:31
+on the other hand though pbxs often have a lot of loosely coupled moving parts
+27:36
+inside like the uh voicemail system will be an independent internal component so this probably avoided a lot of coding
+27:42
+effort to keep those parts synchronized uh and indeed the last setting here would be the password that's for the
+27:48
+voicemail system primarily and every new user just gets it set to 9999 the first time they log in It'll ask them to
+27:54
+change it which is the best way to do it because admins us usually forget to write down whatever they put here now
+28:00
+speaking of voicemail there's a tab for that and there aren't a whole lot of options now in a lot of older pbxs
+28:07
+voicemail was entirely optional but for a small business it's pretty much mandatory so it's good that Microsoft
+28:12
+built it in this system is very simplistic though every user gets voicemail by default and I can't imagine
+28:20
+why you'd bother turning it off but I guess you could and you can also leave
+28:25
+the voicemail enabled but not allow someone to listen to it through their phone and I can't imagine why You' do
+28:31
+that either in fact I think this is such a weird option that nobody ever noticed that it doesn't work I tried turning it
+28:38
+off but nothing happens the final setting here though is to forward voicemails to an email address and this
+28:44
+is actually incredibly useful this sends you a wave file of every voicemail so you can save that on your PC and have a
+28:50
+permanent record of every message you've ever received also if you have a companywide voicemail box you can have
+28:55
+the messages emailed to everyone so people don't have to walk over to a single phone to check and see if there's a message waiting you can even have it
+29:02
+email multiple addresses so this is actually a very well implemented feature and of course you can record a voicemail
+29:08
+greeting but uh we'll actually come back to that later finally we've got the call handling tab which opens with some
+29:14
+esoteric options this is actually a weird kind of privacy feature that seems
+29:20
+to be unique to this PBX see a lot of phone systems offer a paging feature where you can call someone and their
+29:26
+phone will just turn on its speaker so they can hear you right so i' I'd pick this up and I'd dial him and this would
+29:32
+just immediately go off hook and I could go hey Steve can you come over and grab the phone I guess I don't exactly know what
+29:38
+you use paging for instead of just calling someone but it's in every single system at any rate uh response Point
+29:45
+enhances this with another feature called intercom which is the exact same thing except it turns on the mic too so
+29:54
+I page you your phone goes off hook I can now talk lock at you and I can hear
+29:59
+whatever's going on in your office anything that's going on in your office
+30:05
+at that moment I'd love to demo these but there'd be terrible feedback if I did
+30:11
+I'll probably punch something in here in a moment hey Steve you got a call on line
+30:20
+too obviously there are privacy concerns with letting someone turn on a hot mic in your office remotely so we have an
+30:28
+option to turn that off entirely and we have an option to leave it on but to make it beep periodically so uh you know
+30:34
+if somebody enables this while you're out of the office and then you walk in you know you might be there for a few
+30:40
+seconds before you realize it but then it'll go beep and you'll go hey wait a minute somebody's listening in on me so
+30:45
+those are good except that they default to intercom on warning beep off and that
+30:51
+may seem nuts but remember this is intended for tiny businesses right there's less concern than there would be
+30:57
+in a huge company about like weird office politics and whatnot also when
+31:03
+you intercom the phone plays a deafening chime that's pretty much impossible to
+31:09
+miss the other thing is that small business operators hate bumping into Security checks that only make sense for
+31:15
+huge companies everything their system can do they want it to just be on and immediately usable and to not try and
+31:21
+protect them from themselves and honestly that's usually the right choice so I kind of think this is reasonable
+31:28
+anyway the uh final option here is call forwarding if you don't pick up your call after a few rings you can have it either go to your voicemail or go to
+31:36
+another internal extension or get forwarded to an external number or just go nowhere at all and that's it we've
+31:44
+created our user that is every single user specific option in the entire system and I I can't overstate how
+31:51
+simplified this is compared to a Nortel or something there's fewer options by orders of magnitude I mean
+31:58
+just to pick one in a real PBX you need to choose which outside lines this user
+32:03
+has access to response point doesn't have that feature a line is a line it's first come first serve and that's
+32:10
+probably the right call the vast majority of businesses have no need for priority or cost-based trunk routing and
+32:17
+those options complicate the interface tremendously but on the other hand there's a lot of stuff missing here that
+32:23
+would infuriate me um I can't override this user's outbound caller ID for instance there's no option to forward
+32:29
+all calls preemptively before they ring or to ignore calls from specific numbers to ignore Anonymous callers um to block
+32:36
+international dialing these are things that I depended on in my job every day like every single customer wanted to use
+32:43
+these but to be fair I was mostly working with medium-sized businesses
+32:48
+when you have a 100 employees or more you can't know them all you can't trust them all you know one of them might come
+32:54
+in and decide to use the office phone to call their boyfriend in Austria and run up a $50,000 bill that you have to pay
+33:00
+for but in a real mom and pop setting if that happens someone gets a spanking you
+33:06
+know a feed shop is too small for institutional style controls social controls are generally enough and they
+33:12
+typically don't get in your way as much and we'll talk more about who exactly
+33:17
+the target market for This was later but let's just continue the tour for the moment the one remaining basic element
+Phone config
+33:23
+is the phones themselves um I've got these two phones hooked up but you can see from the in light that uh they can't
+33:29
+reach the pvx it's cuz they're not configured once we've created a user we have to assign a phone to it and this is
+33:35
+as simple as it could possibly be we hit add phone we tell it yes we plugged in
+33:40
+the phone and powered it on believe me you got to force people to check that and there we go it detects the two
+33:47
+phones on the network so we just pick one and we tell it that we want this to have Steve as the primary user we can
+33:54
+give it a name if we want yeah defaults to Steve Apple phone and that's it it's configuring the phone and in a moment
+34:02
+Boop it's ready to use I'll just run through that real quick for the other user [Music]
+34:12
+here and now our system is ready to
+34:19
+use I just revealed that this phone handset is not plugged in my movie Magic is ruined I have reasons for it okay I I
+34:26
+should point out that in a lot of lesson systems even if the setup was that fast you have to like reboot the phones a
+34:32
+bunch of times to get them set up or swap between users or whatever in this one you don't everything is
+34:38
+instantaneous it's perfect and at this point we're pretty much done our phones
+34:44
+have names and numbers and we can place calls and if you're at least a little bit with it this whole process from
+34:50
+taking stuff out of the box to this point has taken less than 15 minutes I can't say that that's faster than any
+34:57
+other PBX I've ever used that's probably an exaggeration but it's pretty damn impressive for a machine you don't need
+35:03
+to know anything to operate now of course we're not quite
+35:08
+done next we need to handle inbound calls although if you're following The Logical flow of the UI you'll actually
+Other system features
+35:14
+end up on the base unit tab next so let's take a look at that this is mostly maintenance features you know you can
+35:19
+see uh the event log how much storage is available on the internal hard drive uh set the base unit password date and time
+35:27
+uh but you can also set up your email server for uh voicemail to email forwarding and it's where you can set up your hold music I mean it says Park
+35:34
+music and we'll come back to that later it's a real topic but it's basically hold music every company wants this um
+35:40
+when you put a customer on hold if there's just dead air they'll hang up um so hold music's been mandatory ever
+35:45
+since it was invented uh by default though this just plays a built-in wave file
+36:06
+and obviously a lot of customers would want to change that he says knowing full
+36:12
+well that most don't uh Cisco call manager is sort of famous for this it also comes with a default built-in wave
+36:18
+file which virtually no customer bothers changing and this is why almost every person on this planet has heard this
+36:25
+piece of music
+36:35
+[Music]
+36:57
+[Applause] [Music]
+37:07
+but an awful lot of people do want to change it so it's unfortunate that this doesn't let you upload your own wave
+37:12
+file you can either use the built-in music or you can plug something in the input jack on the base station um a
+37:18
+radio a CD player whatever not that that's legal um you're supposed to go
+37:24
+pay musac for an actual licensed music on hold Source but nobody in the Target demo of this thing would have bothered
+37:30
+little secret for you I've never heard of anyone bothering so it's going to be a CD or a radio but anyway that's about
+37:36
+it so now we can move on to call routing this page is where we would set up all of our inbound call routing normally
+Inbound call features
+37:42
+that would be the next step in setting up a PBX but what's most interesting about this one is we don't actually have
+37:48
+to do that at all so this phone here is on an external viip service it's not connected to the response Point Network
+37:54
+at all it might as well be like a cell phone or something so I'm just going to call the primary number on the response
+38:00
+Point here which I did not
+38:08
+memorize thank you for calling please say the name of the person or group you would like to talk to Steve
+38:14
+Apple transferring to Steve Apple remember when I said this product
+38:21
+was developed by the speech Technologies Group the technology in question was speech recognition uh out of the box the
+38:27
+response Point has what's usually called an auto attendant literally a computerized replacement for a phone
+38:33
+attendant or receptionist any inbound calls to any number that goes to this system go to that auto attendant and
+38:39
+callers can just ask for whoever they want to talk to that's the company directory that I was talking about earlier this is really remarkable I
+38:46
+think this might be the only PBX I've ever seen with a default inbound route most vendors are unwilling to make that
+38:53
+many assumptions about how your system works but of course at most businesses that's a perfectly safe thing to do most
+38:59
+people who would install this would probably want exactly this Behavior so it's not just 15 minutes to get the
+39:05
+phones basically working it's 15 minutes to be genuinely ready to run your
+39:10
+business but of course not everyone will want it to work exactly like this that menu is very impersonal so there are
+39:17
+some settings here on a real PBX inbound call flows are incredibly confuted in some cases they're almost tearing
+39:23
+complete but here it boils down to one question who will answer calls by
+39:29
+default everything goes to the auto attendant although Microsoft calls that an automated receptionist again probably
+39:34
+the right call uh but you can instead have calls go to an actual person uh or
+39:40
+choose one or the other the uh computer or the person based on time of day so
+39:45
+you can go in here and set up uh your hours of operation for each day of the week uh which days you're open then you
+39:51
+can go in and add specific holidays to notch out of that as an override it's actually a quite well implement
+39:57
+but one thing that is a bit odd here is uh if you go with the auto attendant approach if somebody calls in and they
+40:04
+either you know refuse to use the menu so they just start hammering the zero key who hasn't been there uh or if the
+40:10
+system can't understand them then you can pick a user to forward them to to you know figure out what they want to do
+40:17
+and that's the operator so you can choose an operator separately from a receptionist and I'm trying to imagine
+40:24
+what small business would have two different people for those functions you think it would just go with the
+40:29
+receptionist weird but you can do it if you want and um that's it those are our
+Limitations
+40:36
+options it's a very simple way to look at inbound call handling and for the most part I like that Simplicity but
+40:43
+it's also where we start to run into trouble because honestly they've oversimplified here conventional systems
+40:49
+have too many options this has too few uh for instance a universal PBX feature
+40:55
+is the ring group or hunt group uh that allows you to add users to a list then when a call comes in it'll ring the
+41:02
+first person and if they don't pick up it rings the second and so on until someone answers or you can configure it
+41:08
+to ring all users at once or do it based on who most recently got a call many other algorithms and if it rings for too
+41:15
+long you can usually have it go to like a common voicemail box all sorts of things but the point is it's an
+41:20
+extremely common desire that response Point does not deliver in any way Microsoft's only acknowledgement of this
+41:27
+is a link here that says how do I let multiple people answer incoming calls and if you click this it gives you um
+41:33
+actually quite a complicated process um when I first saw this I'm like wow
+41:39
+that's a lot of steps and a lot of bold text so let me boil this down for you
+41:44
+what they want you to do is to come back here and add a new user and up top you
+41:49
+should pick job roll now I skipped over this when we first looked at it cuz I have no idea what this means a user
+41:56
+could be a person a group a job Ro or a location what I mean I mean I can
+42:02
+vaguely understand what those might do the trouble is if I flip between them I
+42:09
+can't really see anything specific that it does do it almost feels like it's only there to help people who can't like
+42:16
+grock the abstraction of a user can be either a specific person or a generic
+42:22
+phone assigned to a particular purpose um you know like a smoke screen just to
+42:27
+make it make sense but I don't think it actually does anything under the hood so
+42:33
+look if I'm confused by this that's not good news for response point but anyway we create our job rooll and we say it's
+42:39
+I don't know incoming users uh and then we go to call routing and we set that
+42:46
+job roll as the default receptionist and now we come back and we edit each of the
+42:51
+phones for these users and in the shared user field we assign this job roll we've
+42:58
+created are you confused yet can we do this for the second one as well okay and
+43:04
+now it says it should work so let's give it a shot okay well both phones are ringing
+43:12
+and I can pick it up from either one so that worked right well sort of the
+43:17
+trouble is this isn't a real ring group it's leveraging a feature that most systems called shared lines or bridged
+43:24
+line appearances basically you're just binding a second user to each phone as
+43:29
+if that were their primary device what does any of that mean don't don't worry about it the the point is
+43:35
+the reason this matters is because uh if we go to the call history here it's
+43:40
+actually quite a nice interface for viewing the call history by the way many systems don't make it nearly this slick let's see um who answered that call this
+43:48
+is my external phone and it was answered by incoming users oh wait a minute oh
+43:54
+I'm sorry I'm full of I was just about to tell you uh that there's no way to find out which user actually picked
+44:00
+it up it just says that that group did but actually if you hover over it it
+44:05
+does say that it was answered on the phone called Bobs and dougnut phone which is what I assigned to that user so
+44:12
+okay well I look a little sillier than I expected right now but the point is this is a half-ass feature this isn't how we
+44:18
+do this okay every PBX ever made has a ring group feature but not this one and
+44:25
+even if the call history wasn't accurate does that really matter I mean in in a tiny business like the ones we're
+44:31
+talking about here you're not going to be doing this sort of forensic stuff digging through the logs to figure out who made a call uh but it's just the
+44:38
+principle of the matter and it's particularly confusing because it seems like it would be really easy to
+44:43
+implement just make this a multi-choice list it obviously supports delivering
+44:48
+calls to multiple users at once they just didn't put it in the UI and that's a huge Miss and um there's sort of
+44:56
+problems with the underlying feature this is leveraging too let's uh go back to the phone wizard here okay so we can
+45:03
+bind up to four users to each physical phone that's a very common feature like I said it's a bridge line appearances
+45:10
+and that's used for things like um letting a secretary answer calls going to her boss right so we put him on the
+45:18
+second line on this phone and now if somebody calls Bob Steve's phone rings now if he knows Bob is there he can just
+45:24
+let it ring until he picks up or if Bob has said I don't want to be disturbed right now then Steve can answer and if
+45:31
+the person actually has a legit reason to bother his boss then he can pass it through to them great this is an
+45:37
+important feature and response Point technically supports it but it doesn't support it very well a typical Voiceover
+45:44
+IP phone does support multiple identities you can see here that I've got two phone lines assigned to this uh
+45:49
+Clive and Bob and if I dial one of these
+45:57
+you can see that this line key is lit up and it says the call was answered by Bob so it's obvious who this call was
+46:03
+intended for but let's try this the other way around I'm going to set up inbound calls
+46:09
+so they all go to Bob then we'll just call the main
+46:14
+number both phones ring but there's no indication on the screen of who they
+46:21
+were trying to reach so if I'm Steve and I picked this up I don't know that they were calling for Bob so I'm going to say
+46:27
+hi this is Steve and the caller is going to have to ask why aren't you Bob it's awkward um particularly for
+46:35
+internal calls right uh even if I had a third phone here and I called Bob it would ring on Steve's phone too it's
+46:42
+obviously undesired behavior and there's no way around it and the problems kind of uh continue to stack up as as we go
+46:49
+on here uh for instance suppose we do want to use that uh automated receptionist well these are all the
+46:55
+settings it has and this is um pathetic is the word the only real choices we
+47:01
+have are to disable the automated directory you know so somebody who's calling in has to already have an
+47:06
+extension um or they have to just hit zero and talk to the human receptionist and then we could turn on three
+47:13
+questions what are your hours what is your location and what is your fax number that's it now to their credit the
+Cool message recording UI
+47:20
+way that you can figure these is extremely slick um recording messages for auto attendants and um like
+47:25
+automated out of office messages and stuff like that is a huge hurdle for most users but uh here it's actually
+47:32
+really straightforward uh so if we hit the configure button for what your hours we have the option to manually upload a
+47:39
+file to the base unit users don't understand that workflow you can explain it any way you like and they just won't
+47:46
+get it you'll have to do it for them but check this out let's hit record new okay
+47:52
+it asks us to pick a phone let's pick Steve's phone then we'll just hit record and we get a call at the beep please
+47:59
+record your prompt when you are finished click the button labeled stop on the screen of your
+48:05
+computer we are located in the bowels of hell just past the eighth Circle turnoff next to the lake of flaming blood now
+48:12
+there are pbxs that can call your phone to have you record a message like this but the ones I've seen force you to use
+48:18
+this awkward Touch Tone interface to handle it so yes it calls you yes it starts recording when you're done you
+48:23
+have to hit pound and if you want to hear what you just recorded you have to hit star users hate this right but here
+48:30
+if we want to hear what we just recorded we are located in the bowels of hell just past the eighth Circle turnoff next
+48:36
+to the lake of flaming blood we just hit play on the PC and if we want to re-record it we hit record if we like it
+48:42
+we hit okay and that's it this process works so well and is so intuitive that even if you're utterly clueless you
+48:48
+could just bang through these in no time at all let's some let's do the greeting thanks for calling Microsoft response
+48:54
+point where our response always gets to the point if you know the party you'd like to reach just say their name
+49:00
+otherwise say operator all right that's most of them and finally let's do the uh hours of operation oh we're always
+49:08
+open all right that's it all my messages have been recorded and that took me like
+49:13
+2 minutes it's fantastic this is a terrific workflow every system should
+49:18
+use this and it even applies to voicemail like suppose I'm the boss or whatever and one of my employees says
+49:24
+hey I need to re-record my voicemail greeting I can't figure it out I can just go in here to that user hit
+49:31
+specify and send a call to their phone at the of course now that I think about
+49:36
+it uh I would have to hit stop for them oh that doesn't work as well as I thought it would well okay the point is
+49:43
+this system definitely has uh some Innovations and even some brilliant ideas in it but you've pretty much seen
+49:51
+everything at this point and it's missing a whole bunch of fundamentals so for instance this is all you can
+49:57
+configure in the auto attendant you can't Define any custom menu options and there's only one menu this one if you
+50:04
+want to choice for Spanish speaking callers you're out of luck if you want a choice for what's your website and email
+50:10
+address you're out of luck and if you want to define a whole bunch of options that actually go to the same place you're out of luck and that sounds silly
+50:17
+but a lot of businesses want to have like sales support billing Etc and they
+50:22
+all actually go to the same person it just makes them look bigger than they actually are it's a common desire and
+50:29
+this system can't do it on top of that response points designers were so hyped about their voice recognition that
+50:36
+there's no option for touch tones you can't set these to option one option two Etc so if your caller can't speak clear
+50:43
+English their only choice is to say things the system doesn't recognize over and over until it punts them to the
+50:48
+operator assuming you even set one up this is pretty weak stuff but again I do
+Voice recognition features
+50:54
+have to give them credit for the voice recognition because it's surprisingly good for its era I kept using the name
+51:00
+bobson dougnut earlier that is actually what I set this phone to now that's a pretty weird name uh I got it from a
+51:07
+silly uh Super Nintendo game with a very poor translation but if you know the party you'd like to
+51:14
+reach just say their name otherwise say operator bobson dougnut transferring
+51:21
+to the system can in fact handle that which is pretty impressive
+51:27
+here's the thing though uh let's uh call in again Bob transferring
+51:34
+to it got it that time God damn it I tested that a dozen times at home and it
+51:41
+never got it I was going to tell you that the speech recognition might be pretty good but it you know it doesn't
+51:46
+understand abbreviations or nicknames and so if you do have somebody with an odd name you have to come in here and give them a nickname so that it can uh
+51:53
+match to that but I guess I was just slurring my words because I just tried
+51:58
+it like three times and it worked every time so um yeah okay I got to give him even more props than I intended now of
+52:05
+course that is a pretty common abbreviation for a common American name uh but shockingly or perhaps not so much
+52:12
+this system actually does pretty well with nonwestern names but I think we can guess why that
+52:18
+is otherwise say operator zong hang transferring toong Wang
+52:28
+yeah so is it any surprise that the uh Project Lead made sure this system could handle his name probably not so much but
+52:35
+still got to give them props for it so while this is pretty impressive for a
+52:40
+cheap PBX from 2007 none of that was actually the product's focus apparently
+52:46
+the bulk of the natural language features are not aimed at external callar they're actually intended for
+52:52
+internal users so we need to take a look at that a huge focus in the design of the response point system was this huge
+52:59
+blue button here this is sort of like the um the start button for respon point so if I hit this I get a
+53:07
+prompt call
+53:12
+Bob and it calls Bob uh or how about this one I'll call in from
+53:21
+outside okay so Steve answers and now he wants to send this call over to Bob so
+53:27
+call one parked transfer to Bob B transferring you may now hang
+53:38
+up slick right I could also do this call
+53:44
+one parked transfer to Bob's voicemail voicemail for Bob transferring
+53:52
+you may now hang up and of course if I'm not on a call I could ask to intercom or paage him paig
+54:01
+Bob oh this will have a lot of feedback okay that was a bad idea now
+54:07
+there are buttons on my phone to do some of these things I think um I think that's last call return that's my call
+54:13
+history that's a conference um this is transfer I believe uh but there isn't
+54:18
+one on here for page or intercom um certainly not one for transfer to voicemail um and the point is that the
+54:25
+voice feature means I don't need to remember which of these esoteric icons represents what and I also don't need to
+54:31
+remember his extension number so for someone who's bad with this sort of thing it's a fantastic feature at least
+54:38
+in concept but at this point we run into more problems and this time they aren't
+54:43
+nitpicks as I said response Point has some neat features but it struggles with
+54:48
+fundamentals so for instance let's call in again okay so we're on our call and we're talking and now I need to step
+54:55
+away from the phone and do something so I'm going to put you on hold all right the uh hold button lights
+55:01
+up and uh I'm going to go in the back room and just do some stuff I'm in the back room right now all
+55:09
+right I've had you on hold for about 2 minutes 50 seconds or so so any moment
+55:15
+now that happens uh my phone starts ringing to remind me that I have a call on hold this is a great feature most
+55:22
+pbxs have it it's called um hold reminder hold recall something like that uh but let's let this uh ring for about
+55:29
+a minute or so cuz I'm not here I'm in the back room checking on something so it just keeps
+55:34
+ringing it's been about uh 45 55
+55:42
+seconds all right there we go and it uh quits ringing that's pretty typical you don't want your phone just ring
+55:48
+continuously you know for the whole 20 minutes or in the back room or whatever so hold reminder usually just rings for
+55:53
+a minute or so and then it um stops and another 5 minutes or so it starts ringing again um but um there's a
+56:01
+problem here because my phone kind of doesn't seem to have a held call anymore
+56:08
+and my polycom doesn't show a call in progress because it just hung up on
+The hold problem, and why Response Point doesn't work
+56:17
+me okay okay okay okay so this is a very common failure mode
+56:23
+for misconfigured Voiceover IP systems um happen s all the time when you have your network set up wrong but that's not
+56:29
+what's going on here because this is actually by Design the help file says outright that it's supposed to work like
+56:36
+this and with that response Point goes in the garbage full stop no discussion
+56:41
+it's over there is no valid use for this system do you remember the part earlier
+56:47
+where I said that programmers can't make phone systems this is what I was talking about you can imagine justifications
+56:53
+that they came up with for this Behavior but they're all wrong they're all in the real world people who
+56:58
+actually have to use phones for their job know that holds can last 15 minutes
+57:04
+30 minutes longer you know if you're a warehouse worker who has to go move a bunch of crates to figure out
+57:09
+something's in stock you you just got to leave the collar on hold for as long as it takes and 3 minutes isn't enough it
+57:16
+can't be adjusted at least not that I could find the help file didn't say anything about it but even if it could like this feature shouldn't exist there
+57:23
+is no purpose for it there's no people X crime no phone sin more Cardinal than
+57:29
+dropping a held call this is a never event this cannot be permitted if if you
+57:34
+are a phone system vendor and your system does this your customer will call you and say they're dropping you or suing you unless you can fix it in less
+57:41
+than 24 hours now there's several reasons that this is so dire and the first one is that all customers
+57:48
+everywhere forever believe that a person they're talking to on the phone is a victim who has been trapped on a call
+57:55
+with them and will th weasel their way out by any means necessary customers hate being put on hold because they
+58:01
+believe that is just a means to justify hanging up on them and if this actually happens there is no force on Earth that
+58:08
+will convince them it was an accident and they will go on to repeat this tale of woe to anyone who will listen and in
+58:15
+every online review space that they can find for years this is devastating to a business's
+58:23
+reputation you cannot drop calls Beyond how immensely rude it is if someone gets
+58:29
+disconnected they then have to work their way back to you if they called in through a receptionist or a hunt group
+58:35
+they may have been dropped on you randomly and they won't necessarily know your name on top of that at a lot of
+58:40
+places employees aren't supposed to blindly transfer calls to other people even if you do know their names so it
+58:46
+might take half an hour for you to get back in touch it might be impossible I will stake my name on the promise that
+58:53
+no PBX in history has this option because it's gibberish I mean there are
+58:59
+many options for held calls um some systems will let you uh redirect calls that are on hold for too long to an
+59:05
+inbound call Que for instance great feature but no PBX designer would add an
+59:11
+option that just drops the call it's it's
+59:18
+incomprehensible why would you do this I would ask what's wrong with them why would someone do this but I already know
+59:24
+the answer it's because response Point wasn't made by PBX people it was made by programmers and worse programmers
+59:31
+working at Microsoft in the mid 2000s one of the most cloistered environments imaginable I think it's safe to say that
+59:38
+most programmers statistically speaking have never held jobs outside of offices except maybe briefly as teenagers so
+59:44
+they don't use phones that often and not even as much as other people in the same building like sales or customer support
+59:50
+So when a programmer attempts to design a phone system something which happens depressingly often the resulting mess is
+59:58
+at best fit to the needs of someone who works in an office and only uses the phone to briefly get in touch with
+1:00:03
+people to make plans or make brief requests or to join conference calls they don't want to be on that's it that
+1:00:11
+person and I'm sorry if this is you but I'm I'm just saying you can't from that
+1:00:17
+perspective understand the vastly different needs of a call center agent and you certainly won't understand the
+1:00:23
+guy who owns a pharmacy in Kansas and that's not not a flippant example okay it's not a joke I keep saying that
+1:00:29
+because in my career I kept working with these people I talked to at least 40 mom
+1:00:34
+and pop pharmacies so they're pretty much my model for a true small business
+1:00:39
+and for that purpose this system is utterly unacceptable if you're running an independent drugstore here's what you
+1:00:45
+want to happen when someone calls your published number all the phones in the building Ring until someone picks up
+1:00:51
+except maybe the one back in the manager's office now you might want the call to get forwarded to voic if nobody
+1:00:56
+answers after a while but a lot of the time you just want it to ring indefinitely now that call will get answered eventually by whoever's nearest
+1:01:03
+the phone maybe that's the pharmacist maybe it's a stock boy who knows whatever the caller wants a prescription
+1:01:08
+a stock check whatever whoever grabbed it has to deal with it so if that person's at the front counter and they
+1:01:14
+need to go to the back room to answer their question they need to be able to look at the phone and see that their
+1:01:20
+call came in on line two there'll be a little yellow light on next to a button labeled line two so they hit hold and
+1:01:26
+that light starts blinking the employee Now deals with one or two other customers waiting in line and when
+1:01:31
+they're ready they walk to the back room they find out whatever they need to find out then they pick up the nearest phone
+1:01:37
+whichever one it is and they press line two to retrieve their call they give the answer and if the caller now needs to
+1:01:42
+talk to someone else they're going to hit hold again and then turn and yell Bob pick up line two this is how things
+1:01:49
+have worked at small retail businesses at warehouses at factories and countless other places for decades partly because
+1:01:57
+it has very good ergonomics this fits the needs of a small business really well and it's very easy to learn but
+1:02:04
+also largely because it's how the AT&T 1A and 1 A2 Key Systems worked in the
+1:02:09
+1940s and 60s respectively those things were incredibly popular so Decades of pbxs have had the option to mimic them
+1:02:16
+and that's kept the technique in cultural circulation even most voice over IP pbxs are capable of simulating a
+1:02:22
+fixed pool of outside lines so you can do this hold and retrieve thing even if
+1:02:27
+it's a total fiction it fits this workflow so you have to be able to do it
+1:02:33
+this phone right here can do that response Point can't and that's a crucial Miss in my opinion the most
+1:02:40
+underserved businesses in this space are tiny establishments that are open to the public and I think Microsoft should have
+1:02:46
+focused on those but they didn't and I'm not surprised because again only a tiny
+1:02:52
+percentage of programmers have ever worked retail and those who have usually think of it as a Cess pit that they
+1:02:57
+escaped as a natural part of growing up rather than a massive industry full of people with needs that aren't being met
+1:03:05
+but what else is new I'm not the first person to say that software companies are Ivory Towers at any rate this system
+1:03:11
+is totally useless for that kind of venue it would admittedly work fairly well at a law office for instance that
+1:03:19
+an insurance office that sort of thing where everyone sits at the same desk every day uh where most callers are
+1:03:24
+trying to reach one particular person most calls never get transferred and if a call drops both parties can usually
+1:03:30
+get back in touch quickly and they probably have a good rapport there's no suspicion no distrust and that is a
+1:03:37
+market to be sure I worked with plenty of businesses like that but I think most
+1:03:42
+of those places have the budget to hire a phone tech at least as a consultant to get it set up and they're way too busy
+1:03:49
+actually working if you will to wear another hat like that they're also frequently staffed by people who do not
+1:03:55
+not like adapting to new ideas you cannot get a lawyer to configure a phone For Love or Money let me tell you so the
+1:04:02
+one Niche where response Point could work isn't one where it could Thrive and
+1:04:07
+I question whether it could even function there to be honest the inability to place calls on hold for
+1:04:13
+long periods is an incomprehensible limitation even for a lawyer 3 minutes
+1:04:19
+isn't enough for any employee of any business and mandatory recall isn't
+1:04:25
+acceptable most people hate that feature and will turn it off if they have the choice and what's even worse is that the
+1:04:31
+response Point manual is both misleading and kind of smug about this the manual
+1:04:37
+says that holds timeout after 2 minutes which is wrong it's actually 4 uh so I'm guessing they got Mass complaints and
+1:04:43
+their solution was just bump the timer up by 1 minute yeah that'll fix it so anyway they forgot to update the docs
+1:04:50
+whatever but it goes on to say in typical programmer talking down to you in a bug report fashion that your real
+1:04:57
+problem is that you shouldn't have wanted to do that you should have used a park instead okay okay so most pbxs have a
+1:05:05
+feature called parking and it's kind of like an enhanced hold it's like this I'm going to call in again so my Call's in
+1:05:11
+progress now if I hit the big blue button call one parked it's now parked so my phone is
+1:05:19
+completely idle I could place another call if I wanted Etc or I could go over to another phone
+1:05:28
+retrieve call retrieving call one and pull the call over to this set
+1:05:36
+so that means I can go to any phone in the office and pick up where I left off without needing to send the call there
+1:05:42
+with a transfer this is a great feature this is a great feature every
+1:05:47
+system should have it most do and I suspect that the developers thought this solved the problem even for pops
+1:05:54
+Pharmacy you know who needs line Keys just go to the back and retrieve the call from the
+1:06:02
+park okay so people who are not computer people
+1:06:08
+don't get abstract Concepts like this and I hate to speak in generalities but I've been around the block and I can
+1:06:14
+tell you that the fundamental unifying quality of every complaint by every nerd about normies or losers going back
+1:06:22
+decades comes down to one fact many people do not grock Concepts that have
+1:06:28
+no tangible form you and I being computer nerds easily conceive that a computer which of course a VoIP phone or
+1:06:35
+a PBX is uh contain invisible logical spaces in which information and virtual
+1:06:41
+objects can be stored and retrieved and we model these spaces in our heads we mirror the computer's internal State and
+1:06:47
+that allows us to plan our interactions with it what I'm saying is that observationally I can tell you that non-
+1:06:53
+nerds are not used to this Stu style of thinking and it's very hard to get the manager of a feed store to play ball
+1:06:59
+with it when they put a call on hold and a button starts blinking that's physical tangible material it's effortless to
+1:07:07
+understand when you have them Park a call it disappears into this intangible
+1:07:12
+imaginary slot and you're asking them to imagine that virtual parking place in their head and then retrieve their call
+1:07:18
+from it with arbitrary unrelated actions and they won't do it just trust me they
+1:07:24
+never will they're just too busy doing their jobs to remember all this silly I mean this is actually better
+1:07:30
+than most systems on a typical PBX you park a call by hitting a park button if you're lucky but often uh you have to
+1:07:37
+wait for the system to tell you which slot it parked it in and then you retrieve it by dialing some insufferable
+1:07:43
+key sequence like Star 81 followed by the slot number so the the owner of the
+1:07:49
+pharmacy is standing at the counter he's got six different prescriptions rattling around in his head there's eight customers in line one's on their cell
+1:07:55
+phone yelling at their doctor's office there's a baby screaming there's two calls on hold and you want them to hear
+1:08:00
+George pick up Park 2 and convert that into lift the phone and dial Star 812
+1:08:07
+pound no they're not doing it you wouldn't even want to do that then you
+1:08:12
+add in the response Point philosophy and now you've got this 65-year-old pharmacist with his hand cued around the
+1:08:17
+handset mumbling as loudly as he can retrieve Park 2 cancel retrieve Park 2
+1:08:24
+it's voicemail it's just not happening and yet response Point thinks
+1:08:30
+this is the only way you should put anyone on hold remember that earlier I said there's a setting for Park music
+1:08:36
+but no hold music that's right uh I don't know if you noticed earlier but when I put this phone on hold it was
+1:08:43
+just dead silence oh boy no other PBX does this
+1:08:48
+and I have no idea what they were thinking it seems almost punitive oh you're not going to use our parks that
+1:08:54
+we're so proud of fine then enjoy your broken garbage feature loser the real
+1:09:00
+irony of all this is that the documentation implies that Parks solve the timeout problem they don't the timer
+1:09:07
+is still there it still recalls after 3 minutes except now if you don't pick up after your phone's been ringing for a
+1:09:12
+minute which by the way the customer can hear on their end they they're just sitting there listening to whole music
+1:09:17
+and suddenly they hear ring back so they know something's wrong once it runs out of recall time it then follows your
+1:09:24
+users no answer settings so instead of hanging up it dumps them to your voicemail this is worse than dropping
+1:09:32
+the call because the customer can absolutely tell that they just got mishandled it's it is
+1:09:39
+incredibly embarrassing and response point is full of issues like this where they obviously
+1:09:45
+either didn't know what they should have been aiming for or they tried to aim simpler and went too far the the whole
+1:09:52
+business uh for instance with assigning multiple users to one phone that that's a great feature when it works correctly
+1:09:57
+but the fact that these phones don't have line Keys renders it counterproductive at best now in a real
+1:10:04
+PBX there are multiple features that would have been better fits for these specific telephone sets but I'd guess
+1:10:11
+that Microsoft designers not knowing how users work thought they were picking the simpler option not realizing it was
+1:10:18
+actually more confusing so okay I'd like to move on to
+PC application
+1:10:24
+a big conclusion but I'd be remiss in not mentioning the final component of the system I couldn't figure out where
+1:10:29
+else to put it in the script so we're just going to do it now besides the administrator there's a second piece of software you can install called the
+1:10:35
+response Point assistant uh now most modern pbxs have something like this and
+1:10:40
+it's a kind of computer telephony integration though not nearly as advanced as the call center screen pop I
+1:10:47
+mentioned earlier any user can use this you just uh put in your extension uh put in your password it autois discovers the
+1:10:53
+base station fortunately and then we get a list of all the users on the system uh so this is a presence
+1:11:00
+dialogue which means that it shows you whether people are on a call or not so Steve answers a call and he turns
+1:11:07
+red in the list now I tried this out earlier and I had to change which user I
+1:11:13
+was logged into and I'll show you why let's log out then log back in as Steve
+1:11:20
+so now we can see the status of Bob's phone and the incoming users job rooll that I created earlier when we were
+1:11:26
+messing with inbound calls watch this transferring
+1:11:31
+to all right so Bob answers the phone and both him and the incoming users job
+1:11:37
+roll turn red because even though incoming users didn't answer the call a
+1:11:42
+phone to which that user is assigned is
+1:11:49
+busy this is so broken I I don't have words this means
+1:11:56
+that if Steve was monitoring Bob's line because he's the boss and he's the secretary if Steve answers a call Bob's
+1:12:04
+phone will look like it's busy to everybody else in the company this doesn't work this is just
+1:12:10
+fundamentally broken but whatever let's press on so besides seeing everybody's
+1:12:16
+presence you can also double click on any user to call
+1:12:21
+them and that automatically picks up on the speaker phone dials the number and then you can pick up the handset if you
+1:12:27
+want this is a nice feature and I can't prove this but I would guess that this
+1:12:32
+also has a plugin for handling tell URLs and what that means is if you're on a
+1:12:37
+website in your browser and you see a phone number usually it will become a clickable link and if you click on it uh
+1:12:43
+this app will forward it to your phone so you don't have to go manually dial it nice feature and since Microsoft added
+1:12:49
+those apis to Windows in like 1995 I'd be shocked if this didn't have it we can also add custom contacts to this uh you
+1:12:56
+can see I've added my external uh VI phone here so if I uh double click
+1:13:01
+that it calls it directly terrific so far this is nice but one curious thing
+1:13:07
+is there's no field to just dial a number directly in the app I mean most of these programs have that so you can
+1:13:14
+just dial a number on your keyboard and hit enter uh they have to be added as a contact for that to work that's a weird
+1:13:20
+limitation if you ask me but what's even weirder is that there's no voicemail implement ation I mean there's an option
+1:13:26
+here to call voicemail but all that does to voicemail please enter your password
+1:13:32
+to check voicemail for a different extension press star is make your phone call voicemail the same as if you
+1:13:38
+pressed the button on the phone and that means you're going to have to use the miserable touchtone interface you know
+1:13:45
+uh press seven to delete a message press nine to keep a message users hate
+1:13:51
+voicemail and this was a golden opportunity to improve that process remember earlier when I showed you uh
+1:13:57
+how you could record messages using the software on your PC in conjunction with your phone that would have been amazing
+1:14:05
+for voicemail I mean being able to play or download messages on your PC would be fantastic being able to delete them on
+1:14:12
+mass would be amazing but just a set of buttons for save message next message
+1:14:18
+previous message that alone would have made voicemail far more tolerable they
+1:14:24
+they missed every ramp off this freeway it's like an inverse hat
+1:14:30
+trick now on the flip side sort of it does improve the call Park process so
+1:14:37
+let's talk more about how much that sucks let me put another call on Park okay so I parked a call on this phone
+1:14:44
+you can't tell right there's no indication that there was ever a call on this phone the only way to find out is
+1:14:50
+uh to press the big blue button call one part and that gives you a reminder that
+1:14:56
+there's a call parked but if I do it on this phone there's no such reminder so if
+1:15:04
+Steve Stacks up eight parked calls even though they could be retrieved by anybody else in the company there's no
+1:15:10
+way for anyone else to tell that they exist he would have to tell them I have a park in slot seven because there's
+1:15:16
+eight Park slots in this machine and then they can pick up their phone and say retrieve slot 7 uh but they have to
+1:15:21
+know it's there they have no idea who's parked there's no way to find out the details of those calls and for that
+1:15:27
+matter when someone Parks a call call one parked it just tells them call One Call
+1:15:34
+two call three parked and they just have to remember which one it was you can obviously lose track so in the assistant
+1:15:41
+app if we go to parked calls this shows every Park in the system and if you hover over them it says who parked it
+1:15:47
+and when the call came in and if you click it it will retrieve it to your phone this makes it a lot easier to not
+1:15:53
+lose a call on the other hand you can't park an ongoing call from the window so
+1:15:58
+you have to do it from the phone and I I didn't mention this yet but the phone interfaces is kind of broken U you may
+1:16:04
+have noticed that I'm not pressing a special Park button I'm just hitting the
+1:16:09
+big blue button it it just Parks any call you have in progress automatically whether you want it or not so that kind
+1:16:15
+of sucks but pay attention to this call one parked retrieve
+1:16:23
+call retrieving call one okay retrieving call one hey how's
+1:16:28
+it going oh I see it didn't actually
+1:16:35
+connect the call to my phone it's actually ringing right now and if I hang up that ring comes through this is the
+1:16:41
+call that was just retrieved you have to hang up and then pick up again to actually answer it it doesn't
+1:16:47
+automatically end the I can feel the vein in my brain
+1:16:54
+about to burst and on top of that and this is the wild thing we park a call
+1:17:00
+then we retrieve it from the app retrieving call
+1:17:07
+one this two leaves us connected to a dead call with the voice system and we
+1:17:15
+have to hang up and pick up again to actually answer the call what this is just unfinished how
+1:17:24
+did they sell this ah so at this point you could tell I'm giving this thing a
+1:17:30
+zero star review but we we do have to just finish the last little bit because there's still
+1:17:36
+actually one more horrible feature first however a good one if we go to the
+1:17:41
+settings menu and we go to identification this is the only system I've ever seen that actually solves for
+1:17:47
+this problem a user can edit their own contact details now obviously in a large
+1:17:52
+business this would be absolutely out of the question it's a massive security risk and it makes sense that most systems would just not promise this so
+1:18:00
+that they don't have to explain why they're blocking everyone from using it cuz obviously you don't want to hire
+1:18:05
+some nobody who you know comes in sits down on the first day finds out they can do this and just changes their name to
+1:18:11
+the CEO of the company and then starts calling random extensions and telling people to buy gift cards but at a small
+1:18:18
+business you know if there's two people in an elevator and someone farts everybody knows who did it right so
+1:18:24
+there's not much risk cuz someone masquerading as another employee on the other hand when the receptionist gets
+1:18:29
+married she doesn't need to wait for her name to get updated for 6 weeks because the boss is out of town he's the only
+1:18:35
+one who has an admin login you know she can just do it herself so this is a great feature the other two tabs here
+1:18:41
+are just uh the same ones that we saw in uh the admin panel so users can basically control all of their own
+1:18:46
+settings that is probably a good thing uh there's also a new tab for notifications so uh if I make an inbound
+1:18:53
+call you see there's this little um uh people call it a toast now that tells me there's an inbound call however I can't
+1:19:01
+I can't answer it you'd think I could just tell it to make my phone pick up on the speaker but I can't uh and if I hit
+1:19:07
+the X here it doesn't actually drop the call it just hides it so it's kind of useless but uh if you don't like it you
+1:19:13
+can at least turn it off and then finally we've got the contact page so this is where you could put in um all
+1:19:19
+your users so you could do click the dial and that in itself would be fine in fact it's a pretty pretty well
+1:19:25
+implemented feature it allows you to have uh a name and then three different numbers you can actually set it up so
+1:19:31
+that if you do have multiple voice services like analog lines plus viip trunks or like um one viip service for
+1:19:38
+local calls and one for international you could actually set it up to use one particular service for this specific
+1:19:44
+contact which hey I mean at least they have some way of doing that and you can add 1,00 contacts per user so this seems
+1:19:53
+great but there's a feature here which I have to call a Mis feature it's called
+1:19:59
+bypass receptionist and here's what it does suppos that Bob the CEO doesn't
+1:20:05
+want all of his friends and Associates to have to wait for the automated receptionist to transfer them every time they call in um especially because his
+1:20:11
+user is hidden in the public directory so they'll have to talk to the real receptionist every single time well he
+1:20:17
+can add all those people to this list and enable the bypass receptionist feature and now when they call in
+1:20:24
+transferring to they just get passed through straight
+1:20:31
+to his phone fantastic nobody has to pass go except this works whether Bob is
+1:20:38
+in the office or not many PBX systems have a do not disturb feature uh that a user can set on their phone or they can
+1:20:45
+enable call forwarding and and many other things uh to handle being out of the office for an extended period but
+1:20:51
+this system doesn't so Bob leaves on vacation lock his office door and now
+1:20:56
+every single person that he knows is unable to reach the business at all because they call the main number or any
+1:21:02
+of the other numbers and they just get his voicemail every time so nobody else
+1:21:07
+even knows that they're trying to call agonizing and there are workarounds
+1:21:13
+um you can go into the admin panel and you can disable receptionist bypass but
+1:21:18
+you can't do it on a per entry basis so you have to turn it off for the entire
+1:21:24
+company at once there's no way for the admin to go into a specific user and
+1:21:29
+remove those entries so they would have to go in reset their password log in through the assistant app and then
+1:21:35
+uncheck all those entries themselves and then when Bob gets back he has to go turn them all back
+1:21:41
+on the aneurysm I can feel it it's happening this this is an attractive
+1:21:47
+nuisance it seems like a neat feature but the real solution is direct inward dials so that Bob can have a direct
+1:21:54
+number to give to all his friends and then another one that calls the front desk now of course you can't always have
+1:22:01
+that if you just have analog lines or you don't know how to set up a direct inward dial but uh this is just a case
+1:22:07
+where you just need to do it correctly because doing it this way is a bad idea I could continue complaining and
+Response Point's decline and demise
+1:22:15
+inventing stories about why this thing sucked but really the proofs in the pudding response point was never a major
+1:22:21
+player and when Microsoft discontinued it just 3 years later the Articles all basically said yeah it's about time I
+1:22:29
+doubt many end users loved this and I'm sure PBX Tex hated it they did sell a
+1:22:34
+bunch though um I found this one at repc our local eway store it just showed up one week and the phones were also there
+1:22:41
+except they'd been sitting on a shelf for 5 years so they must have sold if people are still throwing them out uh
+1:22:48
+there's also several units on eBay so none of these are unobtanium but on the other hand they're rare enough that
+1:22:53
+nobody has arived any of the software that made it incredibly difficult to get this working let me tell you this thing
+1:22:59
+is totally useless without the administrator software there's no local interface no web UI nothing if you lose
+1:23:06
+the program you're just screwed you can't operate it and the only place it was ever distributed was on the original
+1:23:12
+CD ROM that came with the device which of course nobody kept on the other hand
+1:23:17
+Microsoft did release two service packs and after several days of searching I managed to turn up the SP2 installer on
+1:23:24
+an FTP run by dink's Australian division I'm guessing nobody else bothered
+1:23:30
+mirroring it because Microsoft hosted it on their site for free who would pay for the bandwidth if they could just link to
+1:23:35
+Microsoft's extremely fast site on the other hand Microsoft probably didn't have an Australian mirror so dink had to
+1:23:42
+host it locally for their customers to get tolerable speeds so okay of course even after I got that um I then
+1:23:48
+discovered the software on the PBX was newer than the pack I downloaded and there's no way to downgrade it or to
+1:23:54
+find the later software and you can't use an older version of the admin app with a newer version of the software so
+1:24:00
+I I had to disassemble the PBX I had to pull the hard drive out I had to figure out how to inject the older version of
+1:24:06
+the software which is all very fun stuff but hang on let's let's go back a sec
+Third parties
+1:24:11
+dlink what are they doing here wasn't this a Microsoft product
+1:24:17
+well this is where really gets absurd Microsoft never built a response
+1:24:23
+Point PBX to despite this godforsaken thing looking like an Xbox 360 prototype they had nothing to do with its creation
+1:24:30
+this thing was actually made under the uh sis Pine brand I have no idea what
+1:24:36
+that word means uh and it only exists on paper anyway it's actually a submark of quanta makers of a vast range of
+1:24:43
+computing products including my home Nas uh but there were also units made by a asra and dlink and initially unidan was
+1:24:51
+even going to get in on the fun but that fell through for some reason and um I don't have the dlink unit but I do have
+1:24:58
+an A Astra thanks to a viewer shout outs to Matt thank you for sending this over and I have a dlink phone so I can show
+1:25:05
+you a few of the differences if you're curious uh the phones are of course completely
+1:25:11
+intercompatibility
+1:25:24
+these companies were already selling uh that just got new firmware that's usually how it goes in this market uh in
+1:25:30
+addition I know for a fact that when response Point collapsed a Astra published firmware to convert all their
+1:25:36
+phones into generic zp devices so I suspect I have some of the only working response Point desk sets left in the
+1:25:42
+world they all have basically the same features but not the same layout at all for instance the CIS Pine uses these
+1:25:48
+inscrutable icons uh while the dlink uses actual uh text labels which have their Pros cons but I can never remember
+1:25:56
+what the hell any of these mean so you know what my opinion is on the matter the dlink also has a built-in menu this
+1:26:03
+thing doesn't have any configuration menu whatsoever but this isn't necessarily a good thing because uh this
+1:26:09
+has a whole bunch of options in here like um for instance um call forwarding when you're busy or at all times or if
+1:26:16
+you don't answer after several Rings Anonymous call rejection none none of this works there's no features for this
+1:26:23
+in response point so these just don't do anything um that makes me think that this was intended for another system and
+1:26:29
+they just put in a very minimal effort to convert it again very common the biggest difference though is the big
+1:26:35
+blue button or lack thereof the Microsoft folks made a big deal out of this in the concept of the system they
+1:26:42
+called it a Cornerstone of the design but dlink either didn't get the message or didn't care their um teal button here
+1:26:49
+looks like just some generic feature access key that they repurposed on the other hand though they they had another
+1:26:54
+model the dph 128 Ms on which the RP button was blue so what do I know it's
+1:27:02
+still not any bigger though and um there's problems with the manual for
+1:27:07
+instance it claims the phone has functioning line keys that would be a great Improvement if you could actually bind each user to a separate physical
+1:27:13
+key but I don't think those actually work it's pretty obvious this manual isn't for this phone response point is
+1:27:21
+mentioned on the first couple pages and there's a couple pages that show how to add the phone to the system and then the
+1:27:26
+rest of it is all clearly generic documentation um it all refers to the
+1:27:32
+SIP server instead of mentioning response Point ever again uh they also talk about tons and tons of settings
+1:27:38
+that would never work on this system and in fact that whole section like page 20
+1:27:44
+out of 200 starts out with a warning to not change any of this stuff because it'll break response Point That's how
+1:27:51
+little effort dlink put into this product if they been awake enough to even realize what they were selling they
+1:27:57
+would have removed all of this documentation and disabled most of the menus response Point phones are supposed
+1:28:03
+to be centrally configured so all this is unnecessary nonsense but dlink didn't care because they were sleepwalking and
+1:28:10
+who can blame them Microsoft made a hash of this entire product and it's because
+1:28:16
+they didn't take the Reigns in any way they didn't bother making anything themselves they just partnered with
+1:28:21
+other companies but it was just whoever would have them they didn't go out and select existing industry juggernauts or
+1:28:28
+upand comers they just offered this to whoever felt like throwing a few bucks at an idea on a whim so to no one's
+1:28:35
+shock these companies didn't put forth their best efforts and I'm sure that all of them had other plates spinning they
+1:28:41
+weren't going to commit hard to this Venture when they had their own vo products they were trying to get off the ground and it wasn't their job to this
+1:28:47
+was Microsoft's baby it was their business to put response points best foot forward but they didn't bother
+1:28:54
+controlling anything so that didn't happen I mean I don't have the response Point specs I don't know what these
+1:29:00
+companies were given as far as instructions but it's pretty clear that Microsoft placed no requirements on the
+1:29:06
+hardware at all I mean if we just look at these two base units and compare their design it's pretty obvious that
+1:29:13
+Microsoft didn't give them any guidance whatsoever in what they should be building for instance the CIS Pine is
+1:29:19
+absolutely enormous it's like the size of an original Xbox and it kind of has you know the three 60 design language
+1:29:25
+going on you know with the the white and the gray and a lot of other Microsoft Hardware sort of had these colors so you
+1:29:31
+might think that they gave them a palette to work with but then you look at the aastra and it's just
+1:29:37
+um silver paint black plastic it's the most boring thing you've ever seen in your life the dlink product on the other
+1:29:44
+hand at least from pictures I've never been able to actually find one looks much smaller and it's designed more like
+1:29:50
+a desktop KVM switch from like 2004 so completely different Vibes to their
+1:29:56
+whole industrial design but that is just Aesthetics right let's talk about function the A asra and the dlink have
+The bizarre Syspine
+1:30:03
+no local interface whatsoever because of course as I showed you response point is meant to be used solely over your
+1:30:10
+network so why then does the CIS Pine have a local interface I'm sure
+1:30:16
+Microsoft didn't give any specifications for that uh and indeed I don't think Quant knew what to do with it if we uh
+1:30:24
+plug this thing in all right we get this start booting message and in my experience nine times
+1:30:31
+out of 10 this will just sit there it'll never get off the uh start booting message but when it does it just
+1:30:36
+switches to like uh system ready and that's the only message that it will ever appear on this panel it doesn't do
+1:30:42
+anything else it doesn't tell you uh whether calls are in progress it doesn't tell you if the there's a network service Interruption it says absolutely
+1:30:49
+nothing once this thing is booted yeah this is actually passing
+1:30:54
+calls right now but all it'll say is start booting and you see all these controls over here you think oh cool
+1:31:00
+I'll be able to do like Diagnostics without having to get into the the administrator app no none of this does
+1:31:06
+anything I think if you press IP sometimes it'll show you the thing's
+1:31:11
+IP address yeah but I think you have to get to the uh system ready uh part before it'll do that so whatever
+1:31:18
+microcontroller on here is handling the screen uh is failing to communicate reliably with the software running on it
+1:31:24
+and the fact that it happens like 9 out of 10 times means that there's some race condition that's governed by how warm
+1:31:32
+the thing is or who knows what and the only other feature here is this reset
+1:31:37
+button which simply doesn't do what it says it does what this actually
+1:31:42
+supposedly does is shut down the system and to do that you have to press and
+1:31:47
+hold it and after 5 Seconds the screen will say
+1:31:54
+unplug power cord here's the problem I am 100% positive that this isn't
+1:32:02
+actually talking to the underlying system that this is just the microcontroller driving the screen
+1:32:07
+that's been hardcoded to display this message after 5 seconds because naturally this is a PC running Windows
+1:32:14
+XP and there's no way it could have shut down in 5 seconds and we'll come back to
+1:32:20
+that point but anyway this screen appears to be fake it appears to be a decoy either
+1:32:26
+something they intended to do more with later or and I think this is far more likely this is something that they made
+1:32:32
+for some other purpose they invested the R&D in this thing uh to make their own
+1:32:37
+PBX and then they did a really half ass job of uh making it run response point I
+1:32:43
+mean there's no way they would have put in this much effort just for Microsoft's weird half-ass project that was
+1:32:49
+obviously not going anywhere if you're wondering what I'm talking about have you noticed this butt button next to the
+1:32:54
+screen this is a release that allows you to take the entire screen out and flip
+1:33:00
+it over and reinstall it because it actually connects to the PCB with Pogo pins and it has two identical sets of
+1:33:08
+pads so we can now put this back in like that now why would you do that because
+1:33:15
+this machine can be installed in two different configurations you can either just put it on a shelf or a desk or you
+1:33:22
+can put it on a wall using these teardrop hangers on the back but obviously you wouldn't want the screen
+1:33:27
+at the bottom so you'd have to flip it over to do that and then the screen would be upside down so they added this
+1:33:32
+neat mechanism so you can flip the screen over that's absolutely amazing
+1:33:38
+and absurdly over-engineered especially for a product that wasn't their baby so that's why we know they didn't do this
+1:33:44
+for Microsoft now going back to the PC part uh if we take a look at the back of this thing it sure doesn't look like a
+1:33:52
+PC cuz we don't have any of the ual ports there's a couple USBS but otherwise we just have uh Lan um we've
+1:33:58
+got audio for the music on hold and then we've got the uh analog line modules oh and I have to mention the USB ports
+1:34:05
+they're fascinating uh those are how you factory reset the device there's there's no pin hole on here nothing like that uh
+1:34:12
+there's no option in the admin software to reset the device if you lose the password or something like that you have
+1:34:18
+to get the original CD and copy an exe off of it onto a flash drive then you
+1:34:24
+insert it you reboot the thing and you just um wait a long time because there's no way to tell if it executed it or not
+1:34:31
+and then once you think that maybe it worked you unplug the drive and then try to
+1:34:36
+reconnect very very professional the same thing uh if you just want to reset the password there's another exe uh
+1:34:43
+that's just called like reset response Point password you put it in here you just wait for a long time and naturally
+1:34:48
+both of these are lost forever so I don't even know if they work at all anyway the the point is it's it's
+1:34:55
+oversized it's over rot it's over engineered and it's obviously not for this purpose but it is clearly an
+1:35:02
+appliance now let's look at the aastra okay on the front we've got um
+The boring AAstra
+1:35:08
+well it it kind of looks like a crappy DVR or uh like a pennium 3 small form
+1:35:13
+factor PC and that's pretty much what it is because yeah that's obviously just a
+1:35:19
+PC and one that wasn't customized for this purpose at all we've got a PS2 keyboard and mouse ports we've got a
+1:35:25
+local uh VGA interface way too many USBS it's got a headphone jack why would you
+1:35:31
+need a headphone jack on a PBX because this isn't meant to be a PBX I'm sure
+1:35:37
+they just bought this from some odm that was selling it as a generic set top box or whatever uh and indeed if we open it
+1:35:43
+up we find exactly what you'd expect from that this comes apart with a single
+1:35:48
+screw the uh CIS Bine by the way goes to Great Links to hide every single fast on
+1:35:53
+the whole device they're all uh either under feet um there's some hidden under here uh it's really designed to look
+1:35:59
+seamless this is designed to um be a computer this is a pretty
+1:36:06
+typical little guy we've got a a stick of ddr2 here um we've got a a discon
+1:36:12
+module over here that's the hard drive uh there's actually a a normal front panel header over here we've got USB
+1:36:18
+headers there's a via South Bridge I'm sure there's a North Bridge Under this heat sink uh and under that heat sink
+1:36:24
+we've got a via Eden CPU it's a very common chip for embedded applications for the Intel atom came along but what
+1:36:31
+we have more than anything is an awful lot of empty space there's just um
+1:36:37
+really nothing in here and you know based on what we can see of a dinks offering that's probably just an
+1:36:42
+off-the-shelf Mini ITX board in a plastic box so to no one's surprise all
+1:36:48
+these things are just generic PCS cheap designs that nobody cared about the most interesting one is definitely the CIS
+1:36:54
+Pine but um I'll leave that for a follow-up video cuz it's honestly so weird inside that I want to spend a bit
+1:37:00
+more time on it the the point is though being PCS with Microsoft software it is
+1:37:06
+not shocking at all that these run Windows XP each one of these has a COA
+1:37:11
+on the bottom and it may say Microsoft response point but come on you know that's just Windows XP and if you don't
+1:37:17
+believe me let's just fire the thing up I mean it has a VGA port all right we got our keyboard and mouse
+1:37:24
+click all right here's our award bios and there's Windows XP boots incredibly
+1:37:31
+fast I've never seen any copy of Windows start up this quickly it's like 3 seconds and sure enough it's just a copy
+1:37:38
+of XP embedded it's not even Service Pack 3 I don't think that was out yet at any rate they have put absolutely
+1:37:45
+nothing in the desktop or in the start menu it's actually the most barebones copy of Windows I've ever seen check
+1:37:51
+this out that's it there's literally no programs
+1:37:57
+and there's no indication anywhere that this is an appliance you can't tell that
+1:38:03
+it's running any special software there's not even anything in the Cy tray other than a driver for the built-in
+1:38:09
+sound card oh and another one for the graphics you know whatever in fact the only way to find out that this isn't
+1:38:15
+just a blank freshly installed copy of Windows is to go into the control panel right right I forgot they removed
+1:38:23
+all those you have to manually go to the services control panel and then if you scroll
+1:38:28
+down there's a handful of services for response point this is the entire local
+1:38:34
+presence of the response Point software which of course makes sense I'm sure
+1:38:40
+Microsoft didn't expect anyone to expose the local desktop why would they this is clearly meant to be a headless product
+1:38:47
+but of course none of the vendors were paying attention they were all asleep so they just left the VGA port on there and
+1:38:54
+whatnot so users probably plugged these in when they got them and got very confused thinking they'd been sent a
+1:39:00
+machine that wasn't actually usable not realizing that there's no local admin software and about that that's a huge
+1:39:07
+Miss on Microsoft's part this is PC based you cannot make a PC that does not
+1:39:12
+have a video card yes I know you technically can shush at the point this was made it was virtually impossible to
+1:39:19
+get one that didn't have built-in Graphics they should have leveraged that they should have mandated a local console with the administrator software
+1:39:26
+installed so you don't need to run it on another machine if you don't want to it it would have cost them nothing and I
+1:39:33
+mean what was their solution if this thing fails to get a DHCP address or something what was their solution for
+1:39:39
+Diagnostics of any kind given that these clearly weren't required to even have a fault light or or a speaker to give you
+1:39:46
+a beep code if something goes wrong response point just feels completely unfinished it feels like they didn't
+1:39:52
+think through any of these problems but really honestly even that is putting the
+Response Pointless
+1:39:58
+cart before the horse we need to be asking more fundamental questions about this like why do these exist at all I
+1:40:05
+don't mean response point pbxs I mean the physical embodiment thereof these um
+1:40:11
+little plastic boxes what do they achieve there's no specialized Hardware in this thing I mean yes the CIS Pine
+1:40:19
+does have its uh little analog interface cards uh but those were obviously op optional because these guys in dlink
+1:40:25
+didn't bother so they didn't have to either in fact I doubt Microsoft even asked them to these are probably just
+1:40:30
+those network attached converters I talked about earlier built into the box really quanta was just going above and
+1:40:36
+beyond and that means that per Microsoft specs uh the response Point base unit did not need to be anything other than
+1:40:43
+an ordinary PC so why isn't it one I mean obviously you require the special
+1:40:49
+phones they've got to have the big blue button but Microsoft could have had those made by anyone it would have cost
+1:40:54
+them next to nothing given their economies of scale the actual product that Microsoft delivered here response
+1:41:00
+Point itself is just a program that could be installed on any ordinary PC
+1:41:06
+and I admit I really wanted to do this as a bit for the video and I failed but I'm pretty sure that's just because the
+1:41:13
+software checks to see if it's running on XP embedded and whether it's using the enhanced right filter and I don't
+1:41:18
+have the chops to set those up but I also happen to know that the right filter is a nice bonus that's completely
+1:41:24
+unnecessary it's basically a Windows embedded feature that allows you to ensure that critical system files can't
+1:41:30
+be overwritten uh it's a really neat feature and there are tens of thousands of windows-based pbxs that have survived
+1:41:37
+just fine without it in fact one of the most common phone systems that I encountered in my career was 3cx which
+1:41:44
+was indeed a program you installed on Windows that was it just a program you
+1:41:49
+could put it on anything it was sold for about a decade and while it was was always maligned by serious phone people
+1:41:56
+it was still used successfully by thousands of companies I worked with a lot of them and they liked it it had its
+1:42:02
+problems but it sure did outperform response point and it didn't require any special Hardware so this whole thing
+1:42:09
+seems absurd Microsoft obviously could have sold response Point as a standalone product and it would have made a lot
+1:42:14
+more sense but even that isn't asking the real question which is why did
+1:42:20
+Microsoft make this at all and the to that I think is the story of the whole product they didn't want to make it
+1:42:26
+that's why it's so bad and that's why it was canceled I already pointed this out earlier but Mr hang was by all
+1:42:32
+appearances not passionate about phones and he didn't make this because Microsoft wanted to become a phone
+1:42:38
+company he made it cuz he needed a product the thing is though it's not that Microsoft was uninterested in being
+1:42:44
+a phone company they just already were way back at the beginning of this video which had to have been 2 hours ago I
+1:42:51
+mentioned Microsoft had a thing called office communication server I didn't mention that that already existed in
+1:42:57
+2007 before this product came out I did say however that it was much bigger in
+1:43:02
+scope than response point and that's the thing about Microsoft they don't do small when Redmond magazine a Microsoft
+1:43:10
+specific publication wrote an article about response points cancellation in 2010 they quoted a market research
+1:43:16
+company one that solely focuses on Microsoft products I should add who saw
+1:43:22
+two big problems s with it first it was in direct competition with office communication server which was a darling
+1:43:28
+of the company and it had far more proponents and contributed to the bottom line of multiple departments so that was
+1:43:35
+already never going to fly but also response point was focused on small businesses so it would have to have been
+1:43:41
+a rip roaring success moving hundreds of thousands to millions of units to even
+1:43:46
+show up on their balance sheet Microsoft cut it because they already had the thing they wanted the huge thing the a
+1:43:53
+prise thing now we could look at this and say wow maybe there shouldn't be businesses that are so big that even
+1:43:59
+when they come up with a really good idea they don't bother selling it if it won't make them billions in Revenue only
+1:44:04
+hundreds of millions that's true that's ridiculous but it's still not the real
+1:44:10
+issue here the real problem is that Microsoft was the wrong place to make this thing even from a capitalist
+1:44:16
+perspective for all of Mr Hong's blustering about creating a startup inside an Enterprise it didn't actually
+1:44:22
+work because Enterprises don't want startup products he would have been better off leaving and forming an actual
+1:44:29
+startup a PBX for the rest of us would have raak in capital in 2007 it was the
+1:44:34
+perfect year he had the perfect product all it needed was a little polishing but that couldn't happen at a company that
+1:44:40
+barely even bothers patching something if it doesn't show up profit within 18 months the truth is that response point
+1:44:46
+was Dead on Arrival and I think they knew that and didn't care because the only purpose of this in the first place
+1:44:52
+was to make one person's resumee look more impressive and if I sound overly critical if this video has been nothing
+1:44:58
+but complaints it's because in my job I encountered a lot of people who were frustrated with their phone systems and
+1:45:04
+there was really no reason that they needed to be that confusing I'm genuinely irritated that the best chance we ever had at getting a truly easy to
+1:45:11
+use PBX died on the vine solely because of where it was invented and after such a promising start too uh for all the
+1:45:18
+I've been talking there are things to admire about response point I think I pointed them out I have the feeling that
+1:45:24
+someone who worked on this did care did understand the problem space it wasn't all just clueless computer people the
+1:45:31
+very idea of starting with a question and answer format like who will answer calls that's a stroke of Genius that
+1:45:38
+could have been the spark of an excellent design pattern and initial reviews when it came out were very optimistic they called it the easiest
+1:45:44
+PBX on the market they were hoping for a bright future and so I wouldn't be surprised to learn that the whole thing
+1:45:51
+is just unfinished that it's basically beta that they pushed out to Market and intended to improve later and then
+1:45:56
+priorities shifted and nobody ever got to come back and add any of the missing bits and I mean that's literally not
+1:46:02
+true the service packs did add a bunch of features but it's all stuff that should have been there on day one like
+1:46:08
+paging T1 and PR support selectable hold music a call log and VOIP as it turns
+1:46:15
+out the first release couldn't actually connect to a Voiceover IP Gateway provider they had to add that at release
+1:46:21
+this supported analog phone lines and nothing else considering these machines cost over $2,400 that seems absurd even
+1:46:30
+given the state of the industry back then and even after those updates the product was still incredibly barebones
+1:46:35
+response Point needed a lot more work to even get to usable let alone good and it
+1:46:41
+was never going to get it at Microsoft what a shame anyway if you made it this
+Outro
+1:46:47
+far I appreciate that it's uh hard for me to talk about phone stuff without either getting way too detailed or
+1:46:53
+letting years of frustration color my language hopefully I didn't do too much of either but the state of the industry
+1:46:58
+has always just irritated me especially since I used to work in the Middle where I couldn't really fix either end of the problem I I'll give more details on that
+1:47:04
+in future videos I'm sure they just need to be their own thing because this topic just goes on and on and on there's so
+1:47:10
+much to cover I just wanted to let this thing stand on its own so I hope you enjoyed this video if so and you're new
+1:47:17
+to my channel consider subscribing I try to make videos at least this interesting as often as I can if you want to find
+1:47:23
+out when I upload new stuff remember to turn on notifications but if you really liked this and want to make sure I can keep making similar things then consider
+1:47:29
+supporting me on patreon like these folks are doing this is my full-time job and my patrons are the only reason I can
+1:47:35
+afford to buy these things or pay my rent or buy groceries so thank you all
+1:47:40
+so much for making this possible and everyone else thanks for watching
+
