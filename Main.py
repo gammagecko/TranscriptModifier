@@ -6,9 +6,7 @@ with open('SampleTranscript.txt', 'r') as f:
         if line != "" and line[-1].isdigit() and line[-3] == ":":
             if len(line) == 4:
                 minutes = int(line[-4:-3])
-            elif len(line) == 5:
-                minutes = int(line[-5:-3])
-            elif len(line) > 5:
+            elif len(line) >= 5:
                 minutes = int(line[-5:-3])
             if minutes == count or count == 60:
                 count += 1
