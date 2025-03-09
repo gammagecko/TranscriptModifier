@@ -17,6 +17,8 @@ with open('random.txt', 'r') as f:
         else:
             if " um " in line:
                 line = line.replace(" um ", " ")
+            if " uh " in line:
+                line = line.replace(" uh ", " ")
             transcript += line + "\n"
 with open('random.txt', 'w') as file:
     file.write(transcript)
