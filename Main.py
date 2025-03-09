@@ -1,6 +1,6 @@
 count = 0
 transcript = ""
-with open('SampleTranscript.txt', 'r') as f:
+with open('random.txt', 'r') as f:
     for line in f:
         line = line.strip()
         if line != "" and line[-1].isdigit() and line[-3] == ":":
@@ -15,6 +15,8 @@ with open('SampleTranscript.txt', 'r') as f:
                 if count % 2 == 1:
                     transcript += str(line) + "\n"
         else:
+            if " um " in line:
+                line = line.replace(" um ", " ")
             transcript += line + "\n"
-with open('Transcript.txt', 'w') as file:
+with open('random.txt', 'w') as file:
     file.write(transcript)
